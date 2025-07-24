@@ -1,29 +1,4 @@
 """
-Write a short Python function, is_multiple(n, m), that takes two integer
-values and returns. True if n is a multiple of m, that is, n = mi for some
-integer i and False otherwise
-"""
-
-def is_multiple(n: int, m: int) -> bool:
-    if n % m == 0:
-        return True
-    else:
-        return False
-
-
-"""
-Write a short Python function, is_even(k), that takes an integer value and
-returns True if k is even, and False otherwise. However, your function cannot use
-the multiplication, modulo, or division operators.
-"""
-
-def is_even(k: int) -> bool:
-    if k & 1 == 0:
-        return True
-    else:
-        return False
-
-"""
 Write a short Python function, minmax(data), that takes a sequence of
 one or more numbers, and returns the smallest and largest numbers, in the
 form of a tuple of length two. Do not use the built-in functions min or 
