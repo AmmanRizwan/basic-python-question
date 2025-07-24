@@ -1,0 +1,8 @@
+# Python bytecode files
+__pycache__/
+
+# Python virtual environments
+.venv/
+
+# Intellij IDEA project files
+.idea/
