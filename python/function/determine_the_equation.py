@@ -23,5 +23,3 @@ def determine_the_equation() -> bool:
 
     except ValueError:
         print("Please Enter a Valid Integer")
-
-determine_the_equation()
