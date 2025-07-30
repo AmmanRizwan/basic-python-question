@@ -3,7 +3,7 @@
  *  and create a random choice function. same as Python's random.choice.
  */
 
-function randrange(start: number, stop?: number, step: number = 1): number {
+export function randrange(start: number, stop?: number, step: number = 1): number {
     if (stop === undefined) {
         stop = start;
         start = 0;
